@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Request from './requestroad';
+import Main from './roadRequest';
+import Login from './requestroad';
+import Delete from './del';
+import TodoItem from './update';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Login />
+    <Main />
+    <TodoItem />
+    <Delete />
   </React.StrictMode>
 );
 
